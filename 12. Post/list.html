@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Product List</h2>
+        <a href="create.php" class="btn btn-success">Add New</a>
+        <br /><br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Description</th>
+                    <th>Picture</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>title 1</td><td>content 1</td><td>desc 1</td><td><img width='200px' src='upload/pic1.png' alt='picture' /></td><td><a href='delete.php?id=1' class='btn btn-danger'>Delete</a></td><td><a href='edit.php?id=1&title=title 1&desc=desc 1' class='btn btn-info'>Edit</button></td></tr><tr><td>2</td><td>title 2</td><td>content 2</td><td>desc 2</td><td><img width='200px' src='upload/pic2.png' alt='picture' /></td><td><a href='delete.php?id=2' class='btn btn-danger'>Delete</a></td><td><a href='edit.php?id=2&title=title 2&desc=desc 2' class='btn btn-info'>Edit</button></td></tr><tr><td>3</td><td>title 3</td><td>content 3</td><td>desc 3</td><td><img width='200px' src='upload/' alt='picture' /></td><td><a href='delete.php?id=3' class='btn btn-danger'>Delete</a></td><td><a href='edit.php?id=3&title=title 3&desc=desc 3' class='btn btn-info'>Edit</button></td></tr><tr><td>4</td><td>title 4</td><td>content 4</td><td>description 4</td><td><img width='200px' src='upload/' alt='picture' /></td><td><a href='delete.php?id=4' class='btn btn-danger'>Delete</a></td><td><a href='edit.php?id=4&title=title 4&desc=description 4' class='btn btn-info'>Edit</button></td></tr><tr><td>5</td><td>title 5</td><td>content 5</td><td>desc 5</td><td><img width='200px' src='upload/' alt='picture' /></td><td><a href='delete.php?id=5' class='btn btn-danger'>Delete</a></td><td><a href='edit.php?id=5&title=title 5&desc=desc 5' class='btn btn-info'>Edit</button></td></tr><tr><td>6</td><td>title 5</td><td>content 5</td><td>desc 5</td><td><img width='200px' src='upload/' alt='picture' /></td><td><a href='delete.php?id=6' class='btn btn-danger'>Delete</a></td><td><a href='edit.php?id=6&title=title 5&desc=desc 5' class='btn btn-info'>Edit</button></td></tr>            </tbody>
+        </table>
+    </div>
+</body>
+</html>
